@@ -2,7 +2,7 @@
     /* width */
     display: flex;
     flex-wrap: wrap;
-    width: 350px;
+    width: 20rem;
     justify-content: center;
     gap: 5px;
     margin: 0 auto;
@@ -15,11 +15,22 @@
 
 .box {
     border: 2px solid;
-    height: 100px;
-    width: 100px;
+    height: 6rem;
+    width: 30%;
     transition: 0.3s;
 }
 
 .box:hover {
     transform: scale(0.9);
 }
+
+@media screen and (max-width: 770px) {
+    .box {
+    height: 4rem;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .box {
+    height: 3rem;
+    }
+  }
