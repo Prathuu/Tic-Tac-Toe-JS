@@ -1,0 +1,25 @@
+.main {
+    /* width */
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 auto;
+    /* background:none; */
+}
+
+#playerCard {
+    margin: 7rem auto;
+}
+
+.box {
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(0.9);
+}
